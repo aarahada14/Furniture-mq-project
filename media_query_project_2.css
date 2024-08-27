@@ -1,0 +1,41 @@
+@media (min-width: 991px) {
+    .btn-menu{
+        display: none;
+    }
+    
+}
+@media( max-width:992px) {
+    .nav1{
+        display: none;
+    }
+}
+
+
+
+
+
+@media( max-width:992px) {
+    .w-1{
+        width: 100%;
+    }
+    .box-1-1{
+        max-width: 350px !important; 
+        margin: auto;
+    }
+}
+
+
+@media( max-width:991px){
+    .w-3{
+        width:33.33%;
+    }
+    
+}
+
+@media( max-width:771px){
+    .w-3-1{
+        width: 100%;
+        margin: auto;
+    }
+}
+    
