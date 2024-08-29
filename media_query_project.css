@@ -3,6 +3,8 @@
     margin: 0px;
     box-sizing: border-box;
 }
+ 
+/* ......................containar...................... */
 
 .containar{
    
@@ -63,6 +65,7 @@
 }
 
 
+/* ......................containar1...................... */
 
 
 .containar1{
@@ -138,12 +141,13 @@
 
 
 
+/* ......................containar2...................... */
 
 
 .containar2{
     max-width: 1320px;
     margin: auto;
-    padding: 50px;
+    padding: 70px;
 }
 .box2{
     font-family:"Roboto", sans-serif; 
@@ -152,6 +156,9 @@
     
 }
 
+
+
+/* ......................containar3...................... */
 
 
 .containar3{
@@ -178,12 +185,52 @@
     padding: 90px;
     height: 300px;
     display:flex;
+    position: relative;
+ 
 
 }
-.wooden-chair img{
+.add{
+    border: 1px solid black;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 0px;    
+    background-color: black;
     width: 100%;
+    transition: all 0.5s;
+}
+.wooden-chair:hover .add{
+    height: 35px;
+}
+.wooden-chair::before{
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transition: all 1s;
+}
+.wooden-chair:hover::before{ 
+    top:0 ;
+    left: 0;  
+    height: 100%;
+    width: 100%;
+   background-color: #e5e7ec ;
+}
+
+.wooden-chair img{
+
+    width: 100%;
+    transition: all 1s;
     
 }
+.wooden-chair:hover img{
+    transform: scale(1.4);
+   
+}
+
 .box3-wooden h2{
     text-align: center;
     margin-top: 20px;
@@ -200,6 +247,9 @@
     font-family:"Roboto", sans-serif;
 }
 
+
+
+/* ......................containar4...................... */
 
 
 .containar4{
@@ -224,7 +274,175 @@
 }
 
 
+/* ......................containar5...................... */
 
+
+.containar5{
+    max-width: 1320px;
+    margin: auto;
+   
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.box5{
+    
+     padding: 10px; 
+    width:25%;
+    display:flex;
+
+    justify-content: center;
+    
+}
+.wooden{
+    background-color: #f8f9fd;
+    margin-top: 20px;
+   
+    height: 300px;
+    display:flex;
+
+}
+.wooden img{
+    width: 100%;
+    
+}
+
+.box5-wooden h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family:"Roboto", sans-serif;
+}
+.box5-wooden h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:"Roboto", sans-serif;
+}
+
+
+.box5-wooden p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:"Roboto", sans-serif;
+}
+
+
+
+/* ......................containar6...................... */
+
+
+.containar6{
+    max-width: 1320px;
+    margin: auto;
+   
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.box6{
+   
+     padding: 10px; 
+    width:33.33%;
+    display:flex;
+
+    justify-content: center;
+    
+}
+.box6-blog{
+   
+}
+.latest-blog{
+   background-color: #f8f9fd;
+    margin-top: 20px;
+    height: 300px;
+    display:flex;
+    position: relative;
+}
+.latest-blog::before{
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+    transition: all 1s;
+
+}
+.latest-blog:hover::before{
+    top:0 ;
+    left: 0;  
+    height: 100%;
+    width: 100%;
+   background-color: #2424253d ;
+}
+.latest-blog img{
+    width: 100%;
+    
+}
+.box6-blog h3{
+    
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:"Roboto", sans-serif;
+}
+.box6-blog h3:hover{
+    color: rgb(204, 133, 0);
+}
+.box6-blog h5{
+    
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6b6c70;
+    font-family:"Roboto", sans-serif;
+}
+
+
+.box6-blog p{
+    
+    margin-top: 15px;
+    font-size: 15px;
+    color: #4b4b4e;
+    font-family:"Roboto", sans-serif;
+}
+
+
+
+/* ......................containar7...................... */
+
+.containar7{
+    max-width: 100%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box-7{
+    width: 60%;
+    margin: auto;
+    border: 1px solid red;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    
+}
+.box-hm{
+    border: 1px solid blue;
+    width: 20%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.box-hm img{
+  width: 100%;
+}
 
 
 
