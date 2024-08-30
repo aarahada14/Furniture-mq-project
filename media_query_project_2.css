@@ -22,6 +22,9 @@
         max-width: 350px !important; 
         margin: auto;
     }
+    .w-2{
+        width:50%
+    }
 }
 
 
@@ -37,5 +40,8 @@
         width: 100%;
         margin: auto;
     }
-}
+    .w-1{
+        width: 100%;
+    }
     
+}

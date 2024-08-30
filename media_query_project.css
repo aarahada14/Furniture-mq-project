@@ -189,8 +189,16 @@
  
 
 }
+.sale{
+    border: 1px solid red;
+    padding: 0px 15px;
+    position: absolute;
+    left: 75%;
+    top: 3%;
+    
+    
+}
 .add{
-    border: 1px solid black;
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -198,10 +206,38 @@
     background-color: black;
     width: 100%;
     transition: all 0.5s;
+    display: flex;
+   
 }
+
 .wooden-chair:hover .add{
-    height: 35px;
+    height: 30px;
+    transition: all 0.5s;
+  
 }
+.add-shopping{
+    color: white;
+     padding: 6px;
+    font-size: 15px; 
+    
+}
+
+.add b{
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+}
+.ri-heart-line{
+    color: white;
+   padding-left: 40%;
+   padding-top: 6px;
+}
+.ri-fullscreen-line{
+    color: white;
+    padding-left: 5%;
+    padding-top: 6px;
+}
+
 .wooden-chair::before{
     content: "";
     display: block;
@@ -415,35 +451,122 @@
 /* ......................containar7...................... */
 
 .containar7{
-    max-width: 100%;
+    max-width: 1320px;
     margin: auto;
     margin-top: 100px;
-    border: 1px solid black;
-    display: flex;
-    flex-wrap: wrap;
+   
+    overflow-x: hidden;
+   
 
 }
 
 .box-7{
-    width: 60%;
-    margin: auto;
-    border: 1px solid red;
-    height: 200px;
-    padding: 20px;
+    
     display: flex;
     
 }
 .box-hm{
-    border: 1px solid blue;
-    width: 20%;
-    padding: 50px;
+    
+    width: 266px;
+   padding: 70px;
     display: flex;
     justify-content: center;
 }
-.box-hm img{
-  width: 100%;
+
+/* ......................footer...................... */
+
+
+.containar8{
+   
+  
+    max-width: 1320px;
+   padding-top: 80px;
+   padding-bottom: 90px;
+    margin: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.box8{
+   
+    padding: 10px;
+    width: 25%;
+}
+.box8 h1{
+    
+    font-size: 25px;
+    font-family:"Roboto", sans-serif ;
+    padding-bottom: 30PX;
+}
+.box8 p{
+    padding-top: 15PX;
+    font-size: 17px;
+   font-family:"Roboto", sans-serif;
+}
+
+.input-icon{
+  position: relative;   
+  margin-top: 40px;
+}
+.box8 input{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width:100%;
+    height: 50PX;
+}
+.ri-send-plane-line{
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: orange;
+    font-weight: 1000;
+}
+.box8 input:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 
+/* ......................footer-2...................... */
 
-
+.containar9{
+   
+    max-width: 1320px;
+    margin: auto;
+    
+    
+}
+.box-9{
+   
+    height: 100%;
+    padding: 50px 0px;
+}
+.box-icon{
+   
+    width: 100%;
+    font-size: 20PX;
+    margin: auto;
+   
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+}
+.icon{
+   
+    color: rgb(100, 94, 94);
+    width: 50%;
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+.icon-text{
+    padding-top: 20px;
+   
+    width: 80%;
+    font-family:"Roboto", sans-serif ;
+    font-size: 15px;
+    text-align: center;
+}
