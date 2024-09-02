@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:"Roboto", sans-serif;
 }
  
 /* ......................containar...................... */
@@ -9,17 +10,28 @@
 .containar{
    
     
-    max-width: 1320px;
-    margin: auto;
-    margin-top: 30px;
-
+    width: 100%; 
+     background-color: white;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+    
 }
+
+
 .box{
-   
-    width: 100%;
+  
+ 
+    max-width:1320px;
+    margin: auto;
     padding: 20px 0px;
     display: flex;
     justify-content:space-between ;
+
+   
+   
+   
     
 }
 .btn-menu button{
@@ -33,7 +45,7 @@
     
 }
 .nav{
-   
+  
     font-size: 30px;
     font-family: "Roboto", sans-serif;
 }
@@ -44,14 +56,12 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    
-   
-    
 }
 .nav2{
     
     font-size: 20px;
     width: 10%;
+    gap: 20PX;
     font-family: "Roboto", sans-serif;
     display: flex;
     justify-content:space-around;
@@ -63,6 +73,90 @@
 .nav2 i:hover{
     color: orange;
 }
+
+
+
+/* ......................containar-slider...................... */
+
+.containar-slider{
+   
+    border: 1px solid black;
+    margin: auto;
+    height: 800px;
+    overflow-X:scroll ;
+} 
+
+.slider{
+    border: 1px solid red;
+   
+    margin: auto;
+    height: 100%;
+    width: 300%;
+    padding: 10px;
+    display: flex;
+   
+    
+}
+.slider-box{
+    border: 1px solid blue;
+   width: 100%;
+   padding: 10px;
+   height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text-main{
+   
+    border: 1px solid red;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+.chair-text{
+    
+    border: 1px solid green;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    
+    
+   
+}
+.chair-text h3{
+    font-size: 35px;
+    font-family:"Roboto", sans-serif;
+}
+.chair-text h1{
+    font-size: 50px;
+    font-family:"Roboto", sans-serif;
+}
+.chair-text p{
+    font-size: 18px;
+    font-family:"Roboto", sans-serif;
+}
+.price{
+    font-family:"Roboto", sans-serif;
+    
+
+}
+del{
+    color: #bbb9b9;
+}
+
+
+.chair-box{
+    border: 1px solid green;
+   width:30%;
+}
+.chair-text button{
+    width: 200px;
+    height: ;
+}
+
+
 
 
 /* ......................containar1...................... */
@@ -164,7 +258,6 @@
 .containar3{
     max-width: 1320px;
     margin: auto;
-   
     padding: 1px;
     display: flex;
     flex-wrap: wrap;
@@ -179,21 +272,38 @@
     justify-content: center;
     
 }
+
+.box3-wooden{
+   
+    width: 100%;;
+}
 .wooden-chair{
     background-color: #f8f9fd;
-    margin-top: 40px;
-    padding: 90px;
-    height: 300px;
+     height: 300px;
     display:flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    width: 100%;
  
 
 }
 .sale{
-    border: 1px solid red;
-    padding: 0px 15px;
+    padding: 0px 17px 5px 17px;
     position: absolute;
-    left: 75%;
+    background-color: rgb(230, 151, 4);
+    color: white;
+    left: 76%;
+    top: 3%;    
+}
+
+.sale-2{
+   
+    padding: 0px 17px 5px 17px;
+    position: absolute;
+   background-color: rgb(14, 192, 14);
+   color: white;
+    left: 76%;
     top: 3%;
     
     
@@ -260,6 +370,8 @@
 
     width: 100%;
     transition: all 1s;
+    scale: 0.4;
+
     
 }
 .wooden-chair:hover img{
@@ -291,22 +403,51 @@
 .containar4{
     max-width: 100%;
     margin-top: 100px;
-    border: 1px solid black;
+   
   
 }
 .box4{
-    border:1px solid red;
+    height: 590px;
     background-image: url("img/table-banner.jpg");
+    display: flex;
+    position: relative;
    
-    height: 500px;
+   
 }
 .box4-a{
-    border: 1px solid red;
+   
     width: 33.33%;
-    height: 500px;
+   
     background-color:#384042;
     opacity: 0.9;
+    
   
+}
+.box4-b{
+    
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    
+    
+}
+.box4-b h2{
+   font-size: 30px;
+   font-family:"Roboto", sans-serif ;
+   color: white;
+}
+.box4-b P{
+    color: white;
+    font-size: 20px;
+    font-family:"Roboto", sans-serif ;
+    line-height: 25px;
+}
+.box4-b button{
+    height:50px;
+    width: 30%;
+    color: white;
+    background-color: orange;
+    border: none    ;
 }
 
 
@@ -316,7 +457,6 @@
 .containar5{
     max-width: 1320px;
     margin: auto;
-   
     padding: 1px;
     display: flex;
     flex-wrap: wrap;
@@ -324,17 +464,15 @@
 }
 .box5{
     
-     padding: 10px; 
+    padding: 10px; 
     width:25%;
     display:flex;
-
     justify-content: center;
     
 }
 .wooden{
     background-color: #f8f9fd;
     margin-top: 20px;
-   
     height: 300px;
     display:flex;
 
@@ -505,6 +643,15 @@
     font-size: 17px;
    font-family:"Roboto", sans-serif;
 }
+.box8 p:hover{
+ color: rgb(228, 150, 6);
+ padding-left: 10px;
+}
+.box8 b{
+    font-weight: 400;
+    font-size: 15px;
+   font-family:"Roboto", sans-serif; 
+}
 
 .input-icon{
   position: relative;   
@@ -561,6 +708,9 @@
     display: flex;
    justify-content: center;
    gap: 20px;
+}
+.icon > i:hover{
+    color: rgb(230, 151, 5);
 }
 .icon-text{
     padding-top: 20px;
