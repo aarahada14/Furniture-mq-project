@@ -2,6 +2,9 @@
     .btn-menu{
         display: none;
     }
+    .main-text{
+        padding-top:200px
+    }
     
 }
 @media( max-width:992px) {
@@ -21,6 +24,9 @@
 @media( max-width:992px) {
     .w-1{
         width: 100%;
+    }
+    .w-chair-1{
+        width: 70%;
     }
     .box-1-1{
         max-width: 350px !important; 
