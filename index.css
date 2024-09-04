@@ -53,7 +53,7 @@
     font-family: "Roboto", sans-serif;
 }
 .hide-nav{
-    border: 1px solid black;
+   
     width: 100%;
 }
 .nav1{
@@ -104,7 +104,7 @@
     height: 100%;
     width: 300%;
     display: flex;
-    animation: slider 15s infinite none;
+    animation: slider 15s ease-in none;
     
 }
 @keyframes slider{
